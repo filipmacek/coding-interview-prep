@@ -19,7 +19,7 @@ to think more about problem and at the end better understand it.
 
 ### Problems solved
 
-:white_circle: Easy: 2
+:white_circle: Easy: 4
 
 :large_blue_circle: Medium: 0
 
@@ -34,3 +34,4 @@ __Total:__ 2
 1. :white_circle: [1_two_sum.py](leetCode/1_two_sum.py)
 2. :white_circle: [9_palindrome_number.py](leetCode/9_palindrome_number.py)
 3. :large_blue_circle: [2_add_two_numbers.py](leetCode/2_add_two_numbers.py)
+4. :white_circle: [35_search_insert_position.py](leetCode/35_search_insert_position.py)
