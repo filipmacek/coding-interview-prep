@@ -21,13 +21,13 @@ to think more about problem and at the end better understand it.
 
 :white_circle: Easy: 4
 
-:large_blue_circle: Medium: 0
+:large_blue_circle: Medium: 1
 
 :red_circle: Hard: 0
 
 :black_circle: Very Hard: 0
 
-__Total:__ 2
+__Total:__ 5
 
 ### Day 0 
 
@@ -35,3 +35,4 @@ __Total:__ 2
 2. :white_circle: [9_palindrome_number.py](leetCode/9_palindrome_number.py)
 3. :large_blue_circle: [2_add_two_numbers.py](leetCode/2_add_two_numbers.py)
 4. :white_circle: [35_search_insert_position.py](leetCode/35_search_insert_position.py)
+5. :white_circle: [21_merge_two_sorted_lists.py](leetCode/21_merge_two_sorted_lists.py)
