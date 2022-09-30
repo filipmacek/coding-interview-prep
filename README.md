@@ -9,7 +9,7 @@ I finally wanted to set aside some time to recall how to think about simple algo
 **Problems solved**
 
 
-:white_circle: Easy: 1
+:white_circle: Easy: 2
 
 :large_blue_circle: Medium: 0
 
@@ -17,8 +17,9 @@ I finally wanted to set aside some time to recall how to think about simple algo
 
 :black_circle: Very Hard: 0
 
-__Total:__ 1
+__Total:__ 2
 
 ### Day 0 
 
-1. :white_circle: [1-two-sum.py](leetCode/1_two_sum.py)
+1. :white_circle: [1_two_sum.py](leetCode/1_two_sum.py)
+2. :white_circle: [9_palindrome_number.py](leetCode/9_palindrome_number.py)
