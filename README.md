@@ -19,13 +19,13 @@ to think more about problem and to obtain better understanding.
 
 ### Problems solved
 
-:white_circle: Easy: 1
+:white_circle: Easy: 8
 
 :large_blue_circle: Medium: 6
 
 :red_circle: Hard: 0
 
-__Total:__ 13
+__Total:__ 14
 
 ## LeetCode solutions
 
@@ -42,3 +42,4 @@ __Total:__ 13
 11. :large_blue_circle: [53_maximum_subarray.py](leetCode/53_maximum_subarray.py)
 12. :large_blue_circle: [54_spiral_matrix.py](leetCode/54_spiral_matrix.py)
 13. :white_circle: [136_single_number.py](leetCode/136_single_number.py)
+14. :white_circle: [876_middle_of_linked_list.py](leetCode/linked-list/876_middle_of_the_linked_list.py)
