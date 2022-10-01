@@ -19,13 +19,13 @@ to think more about problem and to obtain better understanding.
 
 ### Problems solved
 
-:white_circle: Easy: 8
+:white_circle: Easy: 9
 
-:large_blue_circle: Medium: 7
+:large_blue_circle: Medium: 8
 
 :red_circle: Hard: 1
 
-__Total:__ 16
+__Total:__ 18
 
 ## LeetCode solutions
 
@@ -45,3 +45,5 @@ __Total:__ 16
 14. :white_circle: [876_middle_of_linked_list.py](leetCode/linked-list/876_middle_of_the_linked_list.py)
 15. :large_blue_circle: [148_sort_list.py](leetCode/linked-list/148_sort_list.py)
 16. :red_circle: [23_merge_k_sorted_lists.py](leetCode/linked-list/23_merge_k_sorted_lists.py)
+17. :white_circle: [234_palindrome_linked_lists.py](leetCode/linked-list/234_palindrome_linked_list.py)
+18. :white_circle [167_two_sum_ii.py](leetCode/167_two_sum_ii.py)
