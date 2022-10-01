@@ -34,11 +34,43 @@ class Solution:
 
 
     def merge_sort(self,list:ListNode):
-        print("ssa")
+        # This is recursive
+        if not list or not list.next:
+            return list
+        left = list
+        right = self.get_middle(list)
+        tmp = right.next
+        right.next = None
+        right = tmp
+
+        left = self.merge_sort(left)
+        right = self.merge_sort(right)
+        return self.merge(left,right)
+
+    def merge(self,left:ListNode,right:ListNode)->ListNode:
+        result = None
+        if left == None:
+            return right
+        if right == None:
+            return left
+
+        if left.val <= right.val:
+            result = left
+            result.next = self.merge(left.next,right)
+        else:
+            result = right
+            result.next = self.merge(right.next,left)
+        return result
 
 
-    def get_middle(self):
 
+    def get_middle(self,list:ListNode):
+        slow = list
+        fast = list.next
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+        return slow
 
 if __name__ == '__main__':
     list = [4,2,1,3]
