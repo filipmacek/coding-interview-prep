@@ -21,13 +21,13 @@ to think more about problem and to obtain better understanding.
 
 :white_circle: Easy: 6
 
-:large_blue_circle: Medium: 5
+:large_blue_circle: Medium: 6
 
 :red_circle: Hard: 0
 
 :black_circle: Very Hard: 0
 
-__Total:__ 11
+__Total:__ 12
 
 ## LeetCode solutions
 
@@ -41,4 +41,5 @@ __Total:__ 11
 8. :large_blue_circle: [74_search_2d_matrix.py](leetCode/74_search_2d_matrix.py)
 9. :white_circle: [121_best_time_to_buy_and_sell_stock.py](leetCode/121_best_time_to_buy_and_sell_stock.py)
 10. :white_circle: [26_remove_duplicates_sorted_array.py](leetCode/26_remove_duplicates_sorted_array.py)
-11. :large_blue_circle: [53_maximum_subarray](leetCode/53_maximum_subarray.py)
+11. :large_blue_circle: [53_maximum_subarray.py](leetCode/53_maximum_subarray.py)
+12. :large_blue_circle: [54_spiral_matrix.py](leetCode/54_spiral_matrix.py)
