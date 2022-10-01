@@ -23,9 +23,9 @@ to think more about problem and to obtain better understanding.
 
 :large_blue_circle: Medium: 7
 
-:red_circle: Hard: 0
+:red_circle: Hard: 1
 
-__Total:__ 15
+__Total:__ 16
 
 ## LeetCode solutions
 
@@ -44,3 +44,4 @@ __Total:__ 15
 13. :white_circle: [136_single_number.py](leetCode/136_single_number.py)
 14. :white_circle: [876_middle_of_linked_list.py](leetCode/linked-list/876_middle_of_the_linked_list.py)
 15. :large_blue_circle: [148_sort_list.py](leetCode/linked-list/148_sort_list.py)
+16. :red_circle: [23_merge_k_sorted_lists.py](leetCode/linked-list/23_merge_k_sorted_lists.py)

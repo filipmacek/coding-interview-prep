@@ -48,6 +48,7 @@ class Solution:
         return self.merge(left,right)
 
     def merge(self,left:ListNode,right:ListNode)->ListNode:
+        ## This is merge recursion when we have two sorted linked lists
         result = None
         if left == None:
             return right
