@@ -13,13 +13,13 @@ Every solution is another function in `Solution` class.
 When starting to solve problem, goal is to solve it fast and dirty at first iteration and this will
 be functions that starts with `simple_` keyword.
 After the solution is correct, I should iterate more to find better or different implementation. This will force me 
-to think more about problem and at the end better understand it.
+to think more about problem and to obtain better understanding.
 
 
 
 ### Problems solved
 
-:white_circle: Easy: 4
+:white_circle: Easy: 5
 
 :large_blue_circle: Medium: 4
 
@@ -27,7 +27,7 @@ to think more about problem and at the end better understand it.
 
 :black_circle: Very Hard: 0
 
-__Total:__ 8
+__Total:__ 9
 
 ## LeetCode solutions
 
@@ -39,3 +39,4 @@ __Total:__ 8
 6. :large_blue_circle: [5_longest_palindromic_substring.py](leetCode/5_longest_palindromic_substring.py)
 7. :large_blue_circle: [48_rotate_image.py](leetCode/48_rotate_image.py)
 8. :large_blue_circle: [74_search_2d_matrix.py](leetCode/74_search_2d_matrix.py)
+9. :white_circle: [121_best_time_to_buy_and_sell_stock.py](leetCode/121_best_time_to_buy_and_sell_stock.py)
