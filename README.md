@@ -21,13 +21,13 @@ to think more about problem and at the end better understand it.
 
 :white_circle: Easy: 4
 
-:large_blue_circle: Medium: 3
+:large_blue_circle: Medium: 4
 
 :red_circle: Hard: 0
 
 :black_circle: Very Hard: 0
 
-__Total:__ 7
+__Total:__ 8
 
 ## LeetCode solutions
 
@@ -38,3 +38,4 @@ __Total:__ 7
 5. :white_circle: [21_merge_two_sorted_lists.py](leetCode/21_merge_two_sorted_lists.py)
 6. :large_blue_circle: [5_longest_palindromic_substring.py](leetCode/5_longest_palindromic_substring.py)
 7. :large_blue_circle: [48_rotate_image.py](leetCode/48_rotate_image.py)
+8. :large_blue_circle: [74_search_2d_matrix.py](leetCode/74_search_2d_matrix.py)
