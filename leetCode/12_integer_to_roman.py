@@ -5,7 +5,7 @@ number: 12
 difficulty: medium
 tags: ['Hash table','Math','String']
 url: https://leetcode.com/problems/integer-to-roman/
-solved: false
+solved: true
 ---
 """
 
@@ -27,15 +27,29 @@ class Solution:
     def intToRoman(self, num: int) -> str:
         return self.simple(num)
     def simple(self,num:int):
-        iter = num
+        list = [
+            ['M',1000],
+            ['CM',900],
+            ['D',500],
+            ['CD',400],
+            ['C',100],
+            ['XC',90],
+            ['L',50],
+            ['XL',40],
+            ['X',10],
+            ['IX',9],
+            ['V',5],
+            ['IV',4],
+            ['I',1]
+        ]
         result = ""
-        while iter>0:
-            if iter >1000:
-                pass
-            elif iter >100:
-                pass
-            elif iter >10:
-                digit = iter //10
+        for symbol,value in list:
+            if num //value:
+                count = num//value
+                result += (symbol*count)
+                num = num % value
+        return result
+
 
 
 
@@ -46,5 +60,5 @@ class Solution:
 
 
 if __name__ == '__main__':
-    num = 58
+    num = 900
     print(Solution().intToRoman(num))

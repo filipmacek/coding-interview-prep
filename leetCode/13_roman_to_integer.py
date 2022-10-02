@@ -36,5 +36,5 @@ class Solution:
 
 
 if __name__ == '__main__':
-    string = 'LI'
+    string = 'MM'
     print(Solution().romanToInt(string))
