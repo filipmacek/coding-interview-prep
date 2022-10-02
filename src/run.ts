@@ -87,7 +87,7 @@ function writeReadme(solutions: Solution[]){
         result += `${index}. **${tag.name}**: ${tag.count}\n\n`
         index+=1
     }
-    writeFileSync("./README1.md",result)
+    writeFileSync("./README.md",result)
 
 }
 
