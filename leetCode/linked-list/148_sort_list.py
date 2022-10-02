@@ -1,4 +1,15 @@
 """
+---
+title: Sort list
+number: 148
+difficulty: medium
+tags: ['Linked list','Two Pointers','Divider and Conquer','Sorting','Merge Sort']
+solved: true
+---
+"""
+
+
+"""
 Given the head of a linked list, return the list after sorting it in ascending order.
 """
 from typing import Optional

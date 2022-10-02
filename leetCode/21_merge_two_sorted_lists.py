@@ -1,3 +1,13 @@
+"""
+---
+title: Merge Two Sorted Lists
+number: 21
+difficulty: easy
+tags: ['Linked List','Recursion']
+solved: true
+---
+"""
+
 from typing import Optional
 
 """

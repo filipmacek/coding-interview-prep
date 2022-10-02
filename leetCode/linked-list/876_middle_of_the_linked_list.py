@@ -1,4 +1,15 @@
 """
+---
+title: Middle of the linked list
+number: 876
+difficulty: easy
+tags: ['Linked list','Two pointers']
+solved: true
+---
+"""
+
+
+"""
 Given the head of a singly linked list, return the middle node of the linked list.
 
 If there are two middle nodes, return the second middle node.

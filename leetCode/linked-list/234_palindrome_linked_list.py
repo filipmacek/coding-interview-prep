@@ -1,4 +1,15 @@
 """
+---
+title: Palindrome Linked list
+number: 234
+difficulty: easy
+tags: ['Linked list','Two pointers','Stack','Recursion']
+solved: true
+---
+"""
+
+
+"""
 Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
 """
 from typing import Optional

@@ -1,4 +1,15 @@
 """
+---
+title: Merge K Sorted lists
+number: 23
+difficulty: hard
+tags: ['Linked List','Divide and conquer','Heap (Priority Queue)','Merge Sort']
+solved: true
+---
+"""
+
+
+"""
 You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
 
 Merge all the linked-lists into one sorted linked-list and return it.

@@ -1,0 +1,19 @@
+{
+  "name": "coding-interview-prep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/run.ts"
+  },
+  "repository": "git@github.com:filipmacek/coding-interview-prep.git",
+  "author": "filip <filip_macek@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

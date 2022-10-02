@@ -1,4 +1,15 @@
 """
+---
+title: Palindrome number
+number: 9
+difficulty: easy
+tags: ['Math']
+solved: true
+---
+"""
+
+
+"""
 Given an integer x, return true if x is palindrome integer.
 
 An integer is a palindrome when it reads the same backward as forward.

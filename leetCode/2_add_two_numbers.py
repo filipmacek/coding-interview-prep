@@ -1,4 +1,15 @@
 """
+---
+number: 2
+title: Add two numbers
+difficulty: medium
+tags: ['Linked list','Math','recursion']
+solved: true
+---
+"""
+
+
+"""
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
@@ -7,7 +18,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 """
 I had some problems here because I implemented this with arrays in python.
 But linked list is not array!
-Especially in python implementation, you have to be carefull becase Pyhton is pass-by-object-reference language
+Especially in python implementation, you have to be careful because Python is pass-by-object-reference language
 
 """
 

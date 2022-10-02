@@ -1,3 +1,12 @@
+"""
+---
+title:  Best Time to Buy and Sell Stock
+number: 121
+difficulty: easy
+tags: ['Array','Dynamic programming']
+solved: true
+---
+"""
 
 
 """
