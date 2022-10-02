@@ -4,7 +4,7 @@ title: Search Insert Position
 number: 35
 difficulty: easy
 tags: ['Array','Binary Search']
-solved: false
+solved: true
 ---
 """
 

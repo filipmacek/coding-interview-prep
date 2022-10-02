@@ -58,7 +58,7 @@ function writeReadme(solutions: Solution[]){
     const numEasy = solutionsSolved.filter((item)=> item.difficulty === 'easy').length
     result += `\n${getIcon("easy")} Easy: ${numEasy}\n`
     const numMedium = solutionsSolved.filter((item)=> item.difficulty === 'medium').length
-    result += `\n:${getIcon("medium")} Medium: ${numMedium}\n`
+    result += `\n${getIcon("medium")} Medium: ${numMedium}\n`
     const numHard = solutionsSolved.filter((item)=>  item.difficulty === 'hard').length
     result += `\n${getIcon('hard')} Hard: ${numHard}\n`
     result +=`\n__Total__: ${solutionsSolved.length}\n`
