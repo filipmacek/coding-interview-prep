@@ -18,13 +18,13 @@ to think more about problem and to obtain better understanding.
 
 ### Problems solved
 
-:white_circle: Easy: 8
+:white_circle: Easy: 9
 
-::large_blue_circle: Medium: 8
+:large_blue_circle: Medium: 8
 
 :red_circle: Hard: 1
 
-__Total__: 17
+__Total__: 18
 
 ### Solutions
 
@@ -35,20 +35,21 @@ __Total__: 17
 5. :white_circle: [Merge Two Sorted Lists](./leetCode/21_merge_two_sorted_lists.py)
 6. :white_circle: [Remove Duplicates From Sorted Array](./leetCode/26_remove_duplicates_sorted_array.py)
 7. :large_blue_circle: [Add Two Numbers](./leetCode/2_add_two_numbers.py)
-8. :large_blue_circle: [Rotate Image](./leetCode/48_rotate_image.py)
-9. :large_blue_circle: [Maximum Subarray](./leetCode/53_maximum_subarray.py)
-10. :large_blue_circle: [Spiral Matrix](./leetCode/54_spiral_matrix.py)
-11. :large_blue_circle: [Longest Palindromic Substring](./leetCode/5_longest_palindromic_substring.py)
-12. :large_blue_circle: [Search A 2D Matrix](./leetCode/74_search_2d_matrix.py)
-13. :white_circle: [Palindrome Number](./leetCode/9_palindrome_number.py)
-14. :large_blue_circle: [Sort List](./leetCode/linked-list/148_sort_list.py)
-15. :white_circle: [Palindrome Linked List](./leetCode/linked-list/234_palindrome_linked_list.py)
-16. :red_circle: [Merge K Sorted Lists](./leetCode/linked-list/23_merge_k_sorted_lists.py)
-17. :white_circle: [Middle Of The Linked List](./leetCode/linked-list/876_middle_of_the_linked_list.py)
+8. :white_circle: [Search Insert Position](./leetCode/35_search_insert_position.py)
+9. :large_blue_circle: [Rotate Image](./leetCode/48_rotate_image.py)
+10. :large_blue_circle: [Maximum Subarray](./leetCode/53_maximum_subarray.py)
+11. :large_blue_circle: [Spiral Matrix](./leetCode/54_spiral_matrix.py)
+12. :large_blue_circle: [Longest Palindromic Substring](./leetCode/5_longest_palindromic_substring.py)
+13. :large_blue_circle: [Search A 2D Matrix](./leetCode/74_search_2d_matrix.py)
+14. :white_circle: [Palindrome Number](./leetCode/9_palindrome_number.py)
+15. :large_blue_circle: [Sort List](./leetCode/linked-list/148_sort_list.py)
+16. :white_circle: [Palindrome Linked List](./leetCode/linked-list/234_palindrome_linked_list.py)
+17. :red_circle: [Merge K Sorted Lists](./leetCode/linked-list/23_merge_k_sorted_lists.py)
+18. :white_circle: [Middle Of The Linked List](./leetCode/linked-list/876_middle_of_the_linked_list.py)
 
 ### Tags by count
 
-1. **Array**: 9
+1. **Array**: 10
 
 2. **Linked List**: 6
 
@@ -56,13 +57,13 @@ __Total__: 17
 
 4. **Dynamic Programming**: 3
 
-5. **Recursion**: 3
+5. **Binary Search**: 3
 
-6. **Math**: 3
+6. **Recursion**: 3
 
-7. **Matrix**: 3
+7. **Math**: 3
 
-8. **Binary Search**: 2
+8. **Matrix**: 3
 
 9. **Divide And Conquer**: 2
 
