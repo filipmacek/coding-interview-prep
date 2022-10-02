@@ -84,7 +84,7 @@ function writeReadme(solutions: Solution[]){
     index = 1
     tagsArraySorted.sort((a,b)=> b.count-a.count)
     for (const tag of tagsArraySorted){
-        result += `${index}. **${tag.name}**: ${tag.count}\n\n`
+        result += `${index}. **${tag.name}**: ${tag.count}\n`
         index+=1
     }
     writeFileSync("./README.md",result)
