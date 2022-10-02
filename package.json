@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "echo desi"
+    "start": "ts-node ./src/run.ts"
   },
   "repository": "git@github.com:filipmacek/coding-interview-prep.git",
   "author": "filip <filip_macek@hotmail.com>",

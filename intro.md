@@ -14,4 +14,3 @@ When starting to solve problem, goal is to solve it fast and dirty at first iter
 be functions that starts with `simple_` keyword.
 After the solution is correct, I should iterate more to find better or different implementation. This will force me 
 to think more about problem and to obtain better understanding.
-
