@@ -16,8 +16,8 @@ After the solution is correct, I should iterate more to find better or different
 to think more about problem and to obtain better understanding.
 
 ### Automatic stats generation in README
-At first, I started manually inserting each solved problems in README, but I was cumbersome and unpractical.
-Then I figured that I could write some script that would to that for me and this script could be run with `Github actiuons`
+At first, I started manually inserting each solved problems in README, but it was cumbersome and unpractical.
+Then I figured that I could write some script that would to that for me and this script could be run with `Github actions`
 every time I make new commit with new solution.
 To solve this,I needed to put some metadata for every solution and
 best approach would be to put it somewhere in file, so that file represent a problem and possible solution.
@@ -36,7 +36,7 @@ solved: true
 ---
 ```
 
-When you ran script, it scans every file in folders and subfolders, and parses and collects this metadata.
+When you ran script, it scans for files in folders and subfolders, and parses and collects this metadata.
 It then processes this solution list for all relevant statistics, tags and other info. 
 We then take content from `intro.md`, and strings we created from this solution statistics and write this in 
 official `README.md` file.
