@@ -1,30 +1,31 @@
 # Algorithms and solutions for coding interview questions
 
-After earning my Msc in Mathematics, I started working on practical things. 
-So I never had time to try solving these algorithms questions that you are expected to know on 
-coding interviews in software companies.
-I finally wanted to set aside some time to recall how to think about simple algorithms.
-I was thinking If I should solve this problems in python or javascript because I am fluent in both of them.
-But choose python.
+# Algorithms and solutions for coding interview questions
+
+After earning my MSc in Mathematics, I started working on practical things. So I never had time to look at these algorithms questions that you are expected to know on coding interviews in software companies.
+I finally wanted to set aside some time to recall how to think about simple algorithms. I choose python as my language of choice.
 
 
 ### Methodology
+
+### Methodology
 Every solution is another function in `Solution` class.
-When starting to solve problem, goal is to solve it fast and dirty at first iteration and this will
-be functions that starts with `simple_` keyword.
-After the solution is correct, I should iterate more to find better or different implementation. This will force me 
-to think more about problem and to obtain better understanding.
+When starting to solve problems, the goal is to solve them fast and dirty at the first iteration, and these will be functions that start with `simple_` keyword.
+After validating the solution, I should iterate more to find a better or different implementation. This will force me 
+to think more about problem and to obtain a better understanding.
+
 
 ### Automatic stats generation in README
-At first, I started manually inserting each solved problems in README, but it was cumbersome and unpractical.
-Then I figured that I could write some script that would to that for me and this script could be run with `Github actions`
-every time I make new commit with new solution.
-To solve this,I needed to put some metadata for every solution and
-best approach would be to put it somewhere in file, so that file represent a problem and possible solution.
+At first, I started manually inserting each solved problem in README, but it was cumbersome and impractical.
+Then I figured that I could write some script that would do, and this script would be run with `Github actions` every time I make a commit with new solution.
+To solve this, I needed to put some metadata for every solution and
+best approach is to add it in file so that file represents a problem and possible solution.
 I used python doc strings and put all the relevant metadata at the beginning of each file.
-This needed to be in format that script would know how to parse. I choose yaml and after string is extracted,
-parsing is done with help of [grey-matter](https://github.com/jonschlinkert/gray-matter).
-The script is done in Typescript and `Solution` interface looks like this in yaml at the beginning of each file.
+This needed to be in a format that script would know how to parse. I choose YAML and after a string is extracted,
+parsing is done with the help of [grey-matter](https://github.com/jonschlinkert/gray-matter).
+The script is done in Typescript and `Solution` interface is defined like this.
+
+
 ```angular2html
 ---
 title: Roman to integer
@@ -36,12 +37,12 @@ solved: true
 ---
 ```
 
-When you ran script, it scans for files in folders and subfolders, and parses and collects this metadata.
-It then processes this solution list for all relevant statistics, tags and other info. 
+When you run the script, it scans for files in folders and subfolders, parses and collects the solution's metadata. It then processes this solution list for all relevant statistics, tags, and other info. 
 We then take content from `intro.md`, and strings we created from this solution statistics and write this in 
-official `README.md` file.
-This script is located at `./src/run.ts`, and this is corresponding Github action configuration.
+the official `README.md` file.
+This script is located at `./src/run.ts`, and this is the corresponding Github action configuration.
 It also makes new commit because `README` file is changed.
+.
 ```yaml
 name: write-stats
 run-name: Writing stats in README
@@ -70,11 +71,11 @@ jobs:
 
 :white_circle: Easy: 12
 
-:large_blue_circle: Medium: 11
+:large_blue_circle: Medium: 12
 
 :red_circle: Hard: 1
 
-__Total__: 24
+__Total__: 25
 
 ### Solutions
 
@@ -97,15 +98,16 @@ __Total__: 24
 17. :large_blue_circle: [Spiral Matrix](./leetCode/54_spiral_matrix.py)
 18. :large_blue_circle: [Longest Palindromic Substring](./leetCode/5_longest_palindromic_substring.py)
 19. :large_blue_circle: [Search A 2D Matrix](./leetCode/74_search_2d_matrix.py)
-20. :white_circle: [Palindrome Number](./leetCode/9_palindrome_number.py)
-21. :large_blue_circle: [Sort List](./leetCode/linked-list/148_sort_list.py)
-22. :white_circle: [Palindrome Linked List](./leetCode/linked-list/234_palindrome_linked_list.py)
-23. :red_circle: [Merge K Sorted Lists](./leetCode/linked-list/23_merge_k_sorted_lists.py)
-24. :white_circle: [Middle Of The Linked List](./leetCode/linked-list/876_middle_of_the_linked_list.py)
+20. :large_blue_circle: [Subsets](./leetCode/78_subsets.py)
+21. :white_circle: [Palindrome Number](./leetCode/9_palindrome_number.py)
+22. :large_blue_circle: [Sort List](./leetCode/linked-list/148_sort_list.py)
+23. :white_circle: [Palindrome Linked List](./leetCode/linked-list/234_palindrome_linked_list.py)
+24. :red_circle: [Merge K Sorted Lists](./leetCode/linked-list/23_merge_k_sorted_lists.py)
+25. :white_circle: [Middle Of The Linked List](./leetCode/linked-list/876_middle_of_the_linked_list.py)
 
 ### Tags by count
 
-1. **Array**: 12
+1. **Array**: 13
 2. **Two Pointers**: 6
 3. **Linked List**: 6
 4. **Hash Table**: 5
@@ -116,13 +118,14 @@ __Total__: 24
 9. **Divide And Conquer**: 3
 10. **Recursion**: 3
 11. **Matrix**: 3
-12. **Sorting**: 2
-13. **Stack**: 2
-14. **Merge Sort**: 2
-15. **Greedy**: 1
-16. **Bit Manipulation**: 1
+12. **Bit Manipulation**: 2
+13. **Sorting**: 2
+14. **Stack**: 2
+15. **Merge Sort**: 2
+16. **Greedy**: 1
 17. **Counting**: 1
 18. **Sliding Window**: 1
 19. **Simulation**: 1
-20. **Divider And Conquer**: 1
-21. **Heap (Priority Queue)**: 1
+20. **Backtracking**: 1
+21. **Divider And Conquer**: 1
+22. **Heap (Priority Queue)**: 1
