@@ -1,12 +1,7 @@
 # Algorithms and solutions for coding interview questions
 
-# Algorithms and solutions for coding interview questions
-
 After earning my MSc in Mathematics, I started working on practical things. So I never had time to look at these algorithms questions that you are expected to know on coding interviews in software companies.
 I finally wanted to set aside some time to recall how to think about simple algorithms. I choose python as my language of choice.
-
-
-### Methodology
 
 ### Methodology
 Every solution is another function in `Solution` class.
