@@ -5,7 +5,7 @@ number: 22
 difficulty: medium
 tags: ['String','Dynamic programming','Backtracking']
 url: https://leetcode.com/problems/generate-parentheses/
-solved: false
+solved: true
 ---
 """
 from typing import List
